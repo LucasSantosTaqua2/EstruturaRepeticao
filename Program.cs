@@ -32,6 +32,8 @@ namespace EstruturaRepeticao
            Console.WriteLine("Digite o componente do computador que você queira saber");
            n = Console.ReadLine();
            Console.WriteLine("-------------------------------------------------------");
+            
+            Console.WriteLine("");//Espaço
 
            if (n == "processador")
            {
@@ -40,6 +42,8 @@ namespace EstruturaRepeticao
                    Console.WriteLine($"{processad[i]} Um processador é uma espécie de microchip especializado. A sua função é acelerar, endereçar, resolver ou preparar dados, dependendo da aplicação.");
                }
            }
+            
+            Console.WriteLine("");//Espaço
 
            if (n == "placa mãe")
            {
@@ -48,6 +52,8 @@ namespace EstruturaRepeticao
                    Console.WriteLine($"{placam[i]} A placa-mãe serve como uma plataforma única para conectar todas as peças de um computador. Uma placa-mãe se conecta A CPU, memória, discos rígidos, unidades ópticas, placa de vídeo, placa de som, e outras portas e placas de expansão directa ou através dos cabos. Ele pode ser considerado como a espinha dorsal de um computador. ");
                }
            }
+            
+            Console.WriteLine("");//Espaço
 
            if (n == "memoria ram ")
            {
@@ -56,6 +62,8 @@ namespace EstruturaRepeticao
                    Console.WriteLine($"{memoriar[i]} A RAM é a memória de curto prazo de um computador. Em contraste, o HD ou o SDD de um computador é a memória de longo prazo, onde as coisas ficam armazenadas permanentemente ou até serem excluídas.");
                }
            }
+            
+            Console.WriteLine("");//Espaço
 
             if (n == "memoria")
            {
@@ -64,6 +72,8 @@ namespace EstruturaRepeticao
                     Console.WriteLine($"{memori[i]} memória representa todos os dispositivos que podem armazenar informações, temporária ou permanentemente.");
                }
            }
+            
+            Console.WriteLine("");//Espaço
 
             if (n == "fonte")
            {
