@@ -11,6 +11,8 @@ namespace EstruturaRepeticao
            string [] processad = new string[1];
 
            processad[0] = "Processador :";
+            
+            Console.WriteLine("");// Espaço
 
 
            string [] placam = new string[1];
