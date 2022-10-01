@@ -67,7 +67,7 @@ namespace EstruturaRepeticao
             
             Console.WriteLine("");//Espaço
 
-            if (n == "memoria")
+            if (n == "memoria aaa")
            {
                for (int i = 0; i < n.Length; i++)
                {
@@ -77,7 +77,7 @@ namespace EstruturaRepeticao
             
             Console.WriteLine("");//Espaço
 
-            if (n == "fonte")
+            if (n == "fonte aaaa")
            {
                for (int i = 0; i < n.Length; i++)
                 {
