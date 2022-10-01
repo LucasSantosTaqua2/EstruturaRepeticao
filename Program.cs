@@ -25,19 +25,19 @@ namespace EstruturaRepeticao
 
              string [] memoriar = new string[1];
 
-           memoriar[0] = "Memoria ram :";
+           memoriar[0] = "Memoria ram pula pula:";
 
             string [] memori = new string[1];
 
            memori[0] = "Memoria :";
            Console.WriteLine("-------------------------------------------------------");
-           Console.WriteLine("Digite o componente do computador que você queira saber");
+           Console.WriteLine("Digite o hardware do computador que você queira saber");
            n = Console.ReadLine();
            Console.WriteLine("-------------------------------------------------------");
             
             Console.WriteLine("");//Espaço
 
-           if (n == "processador")
+           if (n == "processador intel")
            {
                for (int i = 0; i < n.Length; i++)
                {
@@ -47,7 +47,7 @@ namespace EstruturaRepeticao
             
             Console.WriteLine("");//Espaço
 
-           if (n == "placa mãe")
+           if (n == "placa mãe assou")
            {
                for (int i = 0; i < n.Length; i++)
                {
